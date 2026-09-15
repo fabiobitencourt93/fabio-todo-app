@@ -19,8 +19,8 @@ jobs:
 
       - name: Instalar as dependências
         run: |
-          pip install -r requirements.txt
+          pip install -r todo-app/requirements.txt
 
       - name: Rodar os teste unitários
         run: |
-          pytest tests/unit
+          pytest todo-app/tests/unit
